@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercedes AMG G-Wagon</title>
+    <link rel="stylesheet" href="car1.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Mercedes AMG G-Wagon</h1>
+        <nav class="navbar">
+            <div class="navbar-brand">
+               
+            </div>
+            <ul class="navbar-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#modifications">Modifications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+        
+    </header>
+
+    <section class="filters">
+        <h2>Filter Modifications</h2>
+        <div class="filter-container">
+            <button id="filter-button" class="filter-button">Select Modification</button>
+            <div id="filter-options" class="filter-options">
+                <select id="modification-filter">
+                    <option value="all">All Modifications</option>
+                    <option value="brabus">Brabus</option>
+                    <option value="mansory">Mansory</option>
+                </select>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section class="modifications">
+        <div class="modification" data-modification="brabus">
+            <h3>Brabus Modifications</h3>
+            <img src="brabus.jpg" alt="Brabus G-Wagon" class="modification-image">
+            <h3>Brabus G-Wagon</h3>
+                <p>The takes the iconic Mercedes-Benz G-Class to an entirely new level of luxury and performance. Renowned for its aggressive styling and unparalleled power, this high-performance SUV is engineered for those who demand the best.</p>
+        </div>
+        <div class="modification" data-modification="mansory">
+            <h3>Mansory Modifications</h3>
+            <img src="mansory.jpg" alt="Mansory G-Wagon" class="modification-image">
+            <h3>Mansory G-Wagon</h3>
+            <p>Mansory G-Wagon
+                The Mansory G-Wagon represents the pinnacle of automotive luxury and performance, transforming the iconic Mercedes-Benz G-Class into an extraordinary masterpiece. Renowned for its bespoke craftsmanship and aggressive aesthetics, this elite SUV embodies sophistication and power.</p>
+        </div>
+    </section>
+    
+    
+
+    <section class="specifications" id="specifications">
+        <h2>Engine Specifications</h2>
+        <table>
+            <tr>
+                <th>Feature</th>
+                <th>Specification</th>
+            </tr>
+            <tr>
+                <td>Engine Type</td>
+                <td>V8 Bi-Turbo</td>
+            </tr>
+            <tr>
+                <td>Horsepower</td>
+                <td>577 hp</td>
+            </tr>
+            <tr>
+                <td>Torque</td>
+                <td>627 lb-ft</td>
+            </tr>
+            <tr>
+                <td>0-60 mph</td>
+                <td>4.5 seconds</td>
+            </tr>
+            <!-- Add more specifications as needed -->
+        </table>
+    </section>
+<!-- About Section -->
+<section id="about">
+    <h2>About</h2>
+    <p>The Mercedes AMG G-Wagon is not just an SUV; it’s a symbol of luxury, performance, and versatility. With its distinctive design and powerful performance, it stands out on any terrain.</p>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+    <h2>Projects</h2>
+    <ul>
+        <li>Project 1: G-Wagon Custom Modifications</li>
+        <li>Project 2: Engine Performance Tuning</li>
+        <li>Project 3: Interior Luxury Upgrades</li>
+    </ul>
+</section>
+
+<!-- Contact Form Section -->
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Send</button>
+    </form>
+</section>
+    <footer>
+        <p>&copy; 2024 Mercedes AMG G-Wagon Fan Site</p>
+    </footer>
+
+    <script src="car2.js"></script>
+</body>
+</html>
